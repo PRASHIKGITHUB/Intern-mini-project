@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    /* height:70px; */
+    background-color: rgb(206, 240, 228);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 4px solid orchid;
+}
+.navbar img{
+    margin-left:20px;
+}
+.navbar-right{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-right a{
+    margin: 5px;
+    padding :4px 10px 4px 10px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    background-color: rgb(195, 220, 220);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-right a:hover{
+    box-shadow: 7px 7px 5px grey;
+}
+.navbar-right a:active{
+    transform: scale(0.95);
+}
+.navbar-mid input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+/* footer */
+footer{
+    /* height: 400px; */
+    background-color: #D8EDEF;
+    margin-left:20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+}
+footer .c1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:start;
+    padding: 20px;
+    margin: 20px;
+    width: 230px;
+    height: 300px;
+    background-color: rgb(229, 233, 220);
+    border-radius: 20px;
+    border-bottom: 4px dotted darkorchid;
+}
+.icons i{
+    margin-right: 30px;
+}
+footer .c2{
+    width: 203px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(229, 233, 220);
+    border-radius: 20px;
+    border-bottom: 4px dotted darkorchid;
+}
+footer .c3{
+    width: 230px;
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    background-color: rgb(229, 233, 220);
+    border-radius: 20px;
+    border-bottom: 4px dotted darkorchid;
+}
+footer .c4{
+    width: 230px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(229, 233, 220);
+    border-radius: 20px;
+    border-bottom: 4px dotted darkorchid;
+}
+footer .c5{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(229, 233, 220);
+    border-radius: 20px;
+    border-bottom: 4px dotted darkorchid;
+}
+footer .c2 p:hover{
+    color:blue;
+}
+footer .c3 p:hover{
+    color:blue;
+}
+footer .c4 p:hover{
+    color:blue;
+}
+.details2 p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.details3 p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.details4 p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.c5 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* About us */
+.AboutUs{
+    /* height: 600px; */
+    background-color: #D8EDEF;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+.AboutUs h1{
+    color: rgb(107, 201, 209);
+    padding: 20px;
+    margin: 20px;
+    background-color: orchid;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-block;
+}
+.AboutUs p{
+    /* font-style: italic; */
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(226, 188, 127, 0.514);
+}
